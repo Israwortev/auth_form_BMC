@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 body{font-family: Arial; background-color: #256999; box-sizing: border-box; padding: 100px;}
 
 		form{
@@ -8,6 +11,17 @@ body{font-family: Arial; background-color: #256999; box-sizing: border-box; padd
 			padding: 20px;
 			margin: 0 auto;
 			width: 300px;
+		}
+
+
+		h4 {
+			color: rgb(0, 0, 0);
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			text-align: center;
+			font-size: 26px;
+			
+
 		}
 
 		input, textarea{
@@ -21,7 +35,8 @@ body{font-family: Arial; background-color: #256999; box-sizing: border-box; padd
 			border: solid 1px #ccc;
 			border-radius: 0 4px 4px 0; 
 			padding: 10px;
-			width: 240px;
+			width: 94%;
+			
 		}
 
 		.field:focus{
@@ -92,4 +107,79 @@ body{font-family: Arial; background-color: #256999; box-sizing: border-box; padd
 
 		#form_session{
 			display: none;
+		}
+	
+
+
+		.social-icon {
+			height: 46px;
+			width: 46px;
+			justify-content: center;
+			align-items: center;
+			margin: 5.em;
+			color: black;
+			border-radius: 50%;
+			border: 1px solid #fff;
+			text-decoration: none;
+			font-size: 15pt;
+			transition: 0.3s;
+			text-align: center;
+			
+		}
+		
+		.fb {
+			color: #626262;
+		}
+		
+		.fb:hover {
+			color: #034AA6;
+		}
+		
+		.tw {
+			color: #626262;
+		}
+		
+		.tw:hover {
+			color: #27B9F2;
+		}
+		
+		.gm {
+			color: #626262;
+		}
+		
+		.gm:hover {
+			color: #BF4539;
+			
+
+
+
+
+
+
+		/* bottons styles */
+
+		.btn{
+			border-radius: 3px;
+			display:inline-block;
+			padding:20px 15px;
+			text-decoration:none;
+			text-shadow:0 1px 0 rgba(255,255,255,0.3);
+			box-shadow:0 1px 1px rgba(0,0,0,0.3); 
+		}
+		
+		.btn-green{
+			color: white;
+			background-color: #3CC93F;
+		}
+		
+		.btn-black{
+			color: #ddd;
+			background-color: #222;
+		}
+		.btn-green:hover{
+			background-color: #37B839;	
+		}
+		.btn-green:active{
+			background-color: #29962A;
+			
 		}
