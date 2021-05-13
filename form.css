@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-body{font-family: Arial; background-color: #256999; box-sizing: border-box; padding: 100px;}
+body{font-family: 'Montserrat', sans-serif; background-color: #256999;
+	 box-sizing: border-box; padding: 100px;}
 
 		form{
 			background-color: white;
@@ -13,6 +14,12 @@ body{font-family: Arial; background-color: #256999; box-sizing: border-box; padd
 			width: 300px;
 		}
 
+
+		.menu-form{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 12pt;
+
+		}
 
 		h4 {
 			color: rgb(0, 0, 0);
@@ -148,38 +155,40 @@ body{font-family: Arial; background-color: #256999; box-sizing: border-box; padd
 		}
 		
 		.gm:hover {
+
 			color: #BF4539;
+
+		}
 			
-
-
-
+			
 
 
 
 		/* bottons styles */
 
 		.btn{
-			border-radius: 3px;
+			border-radius: 0x;
 			display:inline-block;
-			padding:20px 15px;
+			padding:12px 15px;
 			text-decoration:none;
 			text-shadow:0 1px 0 rgba(255,255,255,0.3);
 			box-shadow:0 1px 1px rgba(0,0,0,0.3); 
 		}
 		
-		.btn-green{
-			color: white;
-			background-color: #3CC93F;
+		.btn-color{
+			color: #fff;
+			background-color: #E20515;
 		}
+		
+		.btn-color:hover{
+
+			color: #fff;
+			background-color: rgb(0, 0, 0);
+		}
+
 		
 		.btn-black{
 			color: #ddd;
 			background-color: #222;
 		}
-		.btn-green:hover{
-			background-color: #37B839;	
-		}
-		.btn-green:active{
-			background-color: #29962A;
-			
-		}
+		
