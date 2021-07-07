@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+*{box-sizing: border-box;}
 
 body{font-family: 'Montserrat', sans-serif; background-color: #256999;
 	 box-sizing: border-box; padding: 100px;}
 
 		form{
 			background-color: white;
-			border-radius: 0 0 3px 3px;
+			border-radius:3px;
 			color: #999;
 			font-size: 0.8em;
-			padding: 20px;
+			padding: 20px 30px;
 			margin: 0 auto;
-			width: 300px;
+			max-width: 100%;
+			width: 350px;
+			filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 		}
 
 
 		.menu-form{
 			font-family: 'Montserrat', sans-serif;
 			font-size: 12pt;
-
+			font-weight: 500;
 		}
 
 		h4 {
@@ -39,9 +41,10 @@ body{font-family: 'Montserrat', sans-serif; background-color: #256999;
 		}
 
 		.field{
-			border: solid 1px #ccc;
+			border:none;
+			border-bottom: solid 1px #d2d2d2;
 			border-radius: 0 4px 4px 0; 
-			padding: 10px;
+			padding: 5px 10px;
 			width: 94%;
 			
 		}
@@ -74,34 +77,35 @@ body{font-family: 'Montserrat', sans-serif; background-color: #256999;
 			list-style: none;
 			margin: 0;
 			padding: 0;
+			display: flex;
 		}
 
 		#menu ul li{
-			display: inline-block;
-			width: 50%;
-			margin-right: -4px;
+			flex: 0 0 125px;
 		}
 
 		#menu ul li a{
-			background-color: #ccc;
-			color: #222;
+			background-color: #6E6D6D;
+			color: #fff;
 			display: block;
-			padding: 20px 20px;
+			padding: 5px 10px;
 			text-decoration: none;
 		}
 		#menu ul li a:hover{
-			background-color: rgb(7, 7, 7);
+			background-color: #000;
 			color: #fff;
+		}
+
+		#menu ul li a.active{
+			background-color: #000;
 		}
 
 		#formularios, #menu{
 			margin: 0 auto;
-			width: 340px;
+			width: 350px;
 		}
 
-		.active{
-			background-color: white !important;
-		}
+		
 
 		.columns >div{
 			width: 50%;
@@ -115,6 +119,11 @@ body{font-family: 'Montserrat', sans-serif; background-color: #256999;
 
 		#form_session{
 			display: none;
+		}
+
+		form p{
+			margin-bottom: 0;
+			margin-top: 20px;
 		}
 	
 
@@ -168,17 +177,19 @@ body{font-family: 'Montserrat', sans-serif; background-color: #256999;
 		/* bottons styles */
 
 		.btn{
-			border-radius: 0x;
+			border-radius: 3px;
 			display:inline-block;
 			padding:12px 15px;
 			text-decoration:none;
 			text-shadow:0 1px 0 rgba(255,255,255,0.3);
-			box-shadow:0 1px 1px rgba(0,0,0,0.3); 
+			box-shadow: 0px 2px 4px rgba(156, 39, 176, 0.25);
 		}
 		
 		.btn-color{
 			color: #fff;
 			background-color: #E20515;
+
+
 		}
 		
 		.btn-color:hover{
